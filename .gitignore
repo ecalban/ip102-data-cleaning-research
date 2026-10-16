@@ -1,0 +1,39 @@
+# Dataset files
+data/
+datasets/
+IP102_dataset/
+IP102_extracted/
+*.tar
+*.tar.gz
+*.zip
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
