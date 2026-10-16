@@ -1,0 +1,2 @@
+experiment,best_epoch,test_accuracy,test_macro_f1,tail_recall,ece_15_bins
+E0,9,0.7081214907820859,0.6334784095552528,0.530299895131864,0.11967485213329528
