@@ -1,0 +1,14 @@
+filename,variation,predicted_class_id,predicted_class,top1_confidence_pct,expected_class_id,expected_class_probability_pct,matches_expected
+large (1).jpeg,Original,101,Cicadellidae,86.63531541824341,101,86.63531541824341,True
+large (1).jpeg,Slight blur,101,Cicadellidae,40.36582708358765,101,40.36582708358765,True
+large (1).jpeg,Strong blur,72,Erythroneura apicalis,44.06594932079315,101,0.8363937959074974,False
+large (1).jpeg,Dark image,101,Cicadellidae,76.87634825706482,101,76.87634825706482,True
+large (1).jpeg,Bright image,101,Cicadellidae,55.009669065475464,101,55.009669065475464,True
+large (1).jpeg,Low contrast,101,Cicadellidae,76.68136954307556,101,76.68136954307556,True
+large (1).jpeg,Rotated 90,14,grub,99.5119571685791,101,0.2897363156080246,False
+large (1).jpeg,Rotated 180,101,Cicadellidae,95.93738913536072,101,95.93738913536072,True
+large (1).jpeg,Extreme blur,93,Dasineura sp,42.563596367836,101,0.04400723264552653,False
+large (1).jpeg,Pixelated,10,rice water weevil,25.841832160949707,101,0.2979644574224949,False
+large (1).jpeg,Low resolution,5,rice gall midge,34.00407433509827,101,0.5186737980693579,False
+large (1).jpeg,40% occlusion,75,Phyllocoptes oleiverus ashmead,19.702652096748352,101,6.064228340983391,False
+large (1).jpeg,70% occlusion,75,Phyllocoptes oleiverus ashmead,8.305784314870834,101,1.5252549201250076,False
