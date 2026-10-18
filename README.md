@@ -69,3 +69,60 @@ Best checkpoint: Epoch 9
 The baseline experiment (E0) has been completed.
 The next stage focuses on identifying potentially
 problematic training samples using loss and confidence scores.
+
+---
+
+## E0 vs E1 — Experimental Results
+
+Both experiments were evaluated on the IP102 test set containing
+22,619 images across 102 agricultural pest classes.
+
+### Performance Comparison
+
+| Metric | E0 | E1 (ResNet50) | Better |
+|---|---:|---:|---|
+| Test Accuracy | 70.81% | **71.11%** | E1 |
+| Test Macro-F1 | **63.35%** | 62.71% | E0 |
+| Tail Recall | **53.03%** | 52.73% | E0 |
+| ECE (15 bins) | 0.119675 | **0.063392** | E1 |
+
+**Key findings:**
+
+- E1 achieved slightly higher overall test accuracy.
+- E0 achieved slightly higher Macro-F1 and Tail Recall.
+- E1 achieved lower Expected Calibration Error (ECE).
+- The ECE comparison assumes identical evaluation procedures.
+
+### Performance Visualization
+
+![E0 vs E1 Performance Comparison](results/comparison/e0_e1_comparison.png)
+
+### E1 Training Curves
+
+**Training Loss**
+
+![E1 Training Loss](results/E1/loss_curve.png)
+
+**Training Metrics**
+
+![E1 Training Metrics](results/E1/metrics_curve.png)
+
+### E1 Confusion Matrix
+
+![E1 Confusion Matrix](results/E1/test_results/confusion_matrix.png)
+
+### Experiment Reports
+
+- [Week 01 — Research Plan](reports/week01_research_plan.md)
+- [Week 02 — Dataset Report](reports/week02_dataset_report.md)
+- [Week 03 — Baseline Report](reports/week03_baseline_report.md)
+- [Week 04 — E1 Experiment Report](reports/week04_e1_experiment_report.md)
+
+### Reproducibility
+
+The repository includes experiment notebooks, training histories,
+evaluation metrics, and visualizations.
+
+Large model checkpoints and the original IP102 image dataset
+are not stored in this GitHub repository.
+
