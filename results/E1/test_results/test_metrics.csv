@@ -1,0 +1,2 @@
+model,best_epoch,validation_macro_f1,test_accuracy,test_macro_precision,test_macro_recall,test_macro_f1
+E1_ResNet50,8,0.6221625840685715,0.7111278129006587,0.6623590039454679,0.617500889224515,0.6270532135456104
